@@ -165,10 +165,14 @@ a {
     }
     .happytravels {
         display: flex;
+        margin-bottom: 80px;
+    }
+    .happytravels img {
+        width: 425px;
+        margin-bottom: 0;
     }
     .traveler {
         order: 2;
-        width: 50%;
     }
     .vlevo {
         order: 1;
@@ -189,10 +193,18 @@ a {
     .kancelar {
         display: flex;
         gap: 60px;
+        margin-bottom: 80px;
+    }
+    .cestovka {
+        margin-top: 40px;
     }
     .kancelar ikony {
         order: 1;
         width: 550px;
+    }
+    .ikony {
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .cestovka {
         order: 2;
@@ -203,9 +215,11 @@ a {
     }
     .delegati {
         display: flex;
+        margin-bottom: 60px;
     }
     .pruvodci {
         width: 430px;
+        margin-top: 40px;
     }
     .delegati ikony {
         width: 600px;
